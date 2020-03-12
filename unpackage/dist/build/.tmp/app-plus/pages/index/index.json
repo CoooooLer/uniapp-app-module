@@ -1,0 +1,32 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "searchInput": {
+      "align": "center",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "6px",
+      "placeholder": "搜索",
+      "disabled": true
+    },
+    "buttons": [
+      {
+        "color": "#FF9C27",
+        "colorPressed": "#bbbbbb",
+        "float": "left",
+        "fontSize": "22px",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "text": ""
+      },
+      {
+        "color": "#FF9C27",
+        "colorPressed": "#bbbbbb",
+        "float": "right",
+        "fontSize": "22px",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}

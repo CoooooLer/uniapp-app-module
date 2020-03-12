@@ -1,0 +1,1 @@
+<view class="content"><view class="box animated " hover-class="box-hover bounceIn">按压动画测试</view><view class="box2"><text>文本</text><view>1</view><view>2</view><view>3</view><view>4</view></view></view>

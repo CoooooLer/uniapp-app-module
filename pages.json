@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path" : "pages/test/test",
+		// 	"style" : {}
+		// },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						/* 搜索框 */
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "6px",
+							"placeholder": "搜索",
+							"disabled": true
+						},
+						/* 两个按钮 */
+						"buttons": [
+							// 左边
+							{
+								"color": "#FF9C27",
+								"colorPressed": "#bbbbbb",
+								"float": "left",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue609"
+							},
+							// 右边
+							{
+								"color": "#FF9C27",
+								"colorPressed": "#bbbbbb",
+								"float": "right",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue653"
+							}
+						]
+ 					}
+				}
+ 			}
+		}
+        ,{
+            "path" : "pages/news/news",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/paper/paper",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {}
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "第一个APP",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#FFE452",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+			{
+	        "pagePath": "pages/index/index",
+	        "text": "首页",
+			"iconPath": "static/tabbar/index.png",
+			"selectedIconPath": "static/tabbar/indexed.png"
+			}, 
+			{
+			"pagePath": "pages/news/news",
+			"text": "动态",
+			"iconPath": "static/tabbar/news.png",
+			"selectedIconPath": "static/tabbar/newsed.png"
+			}, 
+			{
+			"pagePath": "pages/paper/paper",
+			"text": "小纸条",
+			"iconPath": "static/tabbar/paper.png",
+			"selectedIconPath": "static/tabbar/papered.png"
+			}, 
+			{
+			"pagePath": "pages/home/home",
+			"text": "我的",
+			"iconPath": "static/tabbar/home.png",
+			"selectedIconPath": "static/tabbar/homed.png"
+			}
+		]
+	}
+}
