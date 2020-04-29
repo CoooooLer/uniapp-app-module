@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="animated fadeInLeft fast paper">
 		小纸条
 	</view>
 </template>
@@ -14,6 +14,8 @@
 	}
 </script>
 
-<style lang="stylus">
-
+<style lang="stylus" scoped>
+	.paper
+		background-color #FF6900
+		height 50vh
 </style>

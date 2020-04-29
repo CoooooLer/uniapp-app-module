@@ -1,61 +1,62 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		// {
-		// 	"path" : "pages/test/test",
-		// 	"style" : {}
-		// },
+		
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app",
-				"app-plus": {
-					"scrollIndicator": "none",
-					"titleNView": {
-						/* 搜索框 */
-						"searchInput": {
-							"align": "center",
-							"backgroundColor": "#f7f7f7",
-							"borderRadius": "6px",
-							"placeholder": "搜索",
-							"disabled": true
-						},
-						/* 两个按钮 */
-						"buttons": [
-							// 左边
-							{
-								"color": "#FF9C27",
-								"colorPressed": "#bbbbbb",
-								"float": "left",
-								"fontSize": "22px",
-								"fontSrc": "/static/font/iconfont.ttf",
-								"text": "\ue609"
-							},
-							// 右边
-							{
-								"color": "#FF9C27",
-								"colorPressed": "#bbbbbb",
-								"float": "right",
-								"fontSize": "22px",
-								"fontSrc": "/static/font/iconfont.ttf",
-								"text": "\ue653"
-							}
-						]
- 					}
-				}
- 			}
-		}
-        ,{
+			"path": "pages/index/index"
+			// "style": {
+			// 	"navigationBarTitleText": "uni-app",
+			// 	"app-plus": {
+			// 		"scrollIndicator": "none",
+			// 		"titleNView": {
+			// 			/* 搜索框 */
+			// 			"searchInput": {
+			// 				"align": "center",
+			// 				"backgroundColor": "#f7f7f7",
+			// 				"borderRadius": "6px",
+			// 				"placeholder": "搜索",
+			// 				"disabled": true
+			// 			},
+			// 			/* 两个按钮 */
+			// 			"buttons": [
+			// 				// 左边
+			// 				{
+			// 					"color": "#FF9C27",
+			// 					"colorPressed": "#bbbbbb",
+			// 					"float": "left",
+			// 					"fontSize": "22px",
+			// 					"fontSrc": "/static/font/iconfont.ttf",
+			// 					"text": "\ue609"
+			// 				},
+			// 				// 右边
+			// 				{
+			// 					"color": "#FF9C27",
+			// 					"colorPressed": "#bbbbbb",
+			// 					"float": "right",
+			// 					"fontSize": "22px",
+			// 					"fontSrc": "/static/font/iconfont.ttf",
+			// 					"text": "\ue653"
+			// 				}
+			// 			]
+ 		// 			}
+			// 	}
+ 		// 	}
+		},
+		{
             "path" : "pages/news/news",
             "style" : {}
-        }
-        ,{
+        },
+		{
             "path" : "pages/paper/paper",
             "style" : {}
-        }
-        ,{
+        },
+		{
             "path" : "pages/home/home",
             "style" : {}
-        }
+        },
+		{
+			"path" : "pages/test/test",
+			"style" : {}
+		}
         
     ],
 	"globalStyle": {

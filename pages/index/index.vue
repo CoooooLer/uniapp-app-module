@@ -1,8 +1,9 @@
 <template>
-	<view class="content">
-		 <navigator url="../test/test" hover-class="navigator-hover">
+	<view class="content animated fadeInLeft">
+		 <navigator url="/pages/test/test" hover-class="navigator-hover">
 			<button type="default">跳转到新页面</button>
 		</navigator>
+		
 		
 	</view>
 </template>
@@ -23,7 +24,9 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
+	page
+		background-color #1CBBB4
 	.content {
 		display: flex;
 		flex-direction: column;
